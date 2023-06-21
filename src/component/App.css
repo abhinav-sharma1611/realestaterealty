@@ -1,0 +1,310 @@
+container-fluid {
+  padding-left: 0px;
+
+  padding-right: 0px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.text {
+  color: Red;
+
+  font-weight: bold;
+
+  font-size: large;
+}
+
+.text1 {
+  color: gray;
+}
+
+.marg {
+  margin-left: 400px;
+}
+
+.brdr {
+  border: 10px;
+}
+
+.btn2 {
+  margin-left: 10px;
+}
+
+/*
+
+.im{
+
+    background-image:url('red.jpg');
+
+    align-items:flex-start;
+
+    background:transparent !important;
+
+   
+
+} */
+
+.image {
+  background-image: url("new.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position-y: -200px;
+
+  max-width: 100%;
+
+  height: 50vh;
+
+  align-items: flex-start;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.inner-div {
+  color: white;
+
+  margin-left: 180px;
+
+  font-weight: bold;
+}
+
+.new-nav {
+  margin-left: 180px;
+
+  color: white;
+}
+
+.down-nav {
+  color: white;
+}
+
+.marg {
+  padding-left: 10px;
+}
+
+.search {
+  position: relative;
+
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 60px;
+
+  text-indent: 25px;
+
+  border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+
+  top: 20px;
+
+  left: 16px;
+}
+
+.search button {
+  position: absolute;
+
+  top: 5px;
+
+  right: 5px;
+
+  height: 50px;
+
+  width: 110px;
+
+  background: blue;
+}
+
+.wid-search {
+  margin-left: 160px;
+
+  width: 400px;
+
+  height: 30px;
+}
+
+.btn-primary {
+  background-color: #5878ff !important;
+
+  border-radius: 7px;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.image2 {
+  background-image: url("people.PNG");
+
+  width: 700px;
+
+  height: 450px;
+
+  padding: 50px;
+
+  margin-top: 100px;
+
+  margin-left: 50px;
+}
+
+.content1 {
+  display: flex;
+}
+
+.content {
+  margin-top: 300px;
+
+  margin-left: 100px;
+}
+
+.image3 {
+  background-image: url("qrr.PNG");
+
+  background-repeat: no-repeat;
+
+  width: 80%;
+
+  height: auto;
+
+  /* /* padding: 350px;* */
+
+  margin-left: 100px;
+
+  /* margin: 10px; */
+
+  /* margin-top: 100px;
+
+    margin-left: 50px; */
+}
+
+.image4 {
+  background-image: url("homee.PNG");
+
+  width: 700px;
+
+  height: 450px;
+
+  padding: 50px;
+
+  margin-top: 100px;
+
+  margin-left: 50px;
+}
+
+.btn {
+  margin-left: 20px;
+
+  border: black 2px;
+}
+
+.image5 {
+  background-image: url("building.png");
+
+  background-repeat: no-repeat;
+
+  width: 80%;
+
+  height: auto;
+
+  margin-right: 70px;
+
+  margin-top: 20px;
+
+  /* /* padding: 350px;* */
+
+  margin-left: 100px;
+
+  /* margin: 10px; */
+
+  /* margin-top: 100px;
+
+    margin-left: 50px; */
+}
+
+.agent {
+  margin-top: 100px;
+
+  background-color: #f1f7d8;
+
+  width: 100%;
+
+  height: 250px;
+  display: flex;
+}
+
+.agent1 {
+  padding: 60px;
+}
+
+.mg {
+  padding-top: 40px;
+  margin-left: 30px;
+}
+
+.d-flex,
+.head {
+  margin-left: 177px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.col {
+  color: aliceblue;
+}
+
+.appstore {
+  background-image: url("store.PNG");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+}
+
+.column1 {
+  margin-left: 80px;
+}
+.column2 {
+  margin-left: 80px;
+}
+.column3 {
+  margin-left: 100px;
+}
+
+.content2 {
+  display: flex;
+  margin-top: 70px;
+  font-size: small;
+}
+
+.column4 {
+  margin-left: 100px;
+}
+.visible {
+  visibility: hidden;
+}
+
+.searchbar {
+  width: 350px;
+}
+
+.navbar-brand {
+    color: white;
+}
