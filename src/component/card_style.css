@@ -1,0 +1,9 @@
+
+.card-container {
+    margin: 25px auto 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: flex-start;
+  }

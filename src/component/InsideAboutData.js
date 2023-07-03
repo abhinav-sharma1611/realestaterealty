@@ -1,0 +1,3 @@
+const Data = " Spacious, well maintained property with 6 bedrooms and 5 full bathrooms. First unit features a spacious layout with 2 bedrooms and 2 full bathrooms duplexed down to the spacious basement with 2 extra bedrooms, more living space and one full bathroom. Second unit offers 2 bedrooms, a studio and 2 bathrooms. The presence of a 2-car brick garage and additional parking space is convenient for residents and tenants ensuring convenient parking options. Property is situated on an extra-wide Chicago lot that offers a spacious well-maintained yard, perfect for outdoor activities and gatherings. Whether you are an investor or someone looking for a place to live, this property offers both potential rental income and comfortable living space."
+
+export default Data;

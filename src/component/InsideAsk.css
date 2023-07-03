@@ -1,0 +1,19 @@
+.block-image-info{
+    display: flex;
+}
+.block-info-name{
+    color: blue;
+}
+.block-textarea{
+    border: 2px solid black;
+    border-radius: 18px;
+}
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.block-button{
+    display: flex;
+}
