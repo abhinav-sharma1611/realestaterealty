@@ -4,6 +4,7 @@ import store from './store.PNG'
 import twitter from './twitter.PNG'
 import countries from './countries.PNG'
 import home_logo from './home_logo.PNG'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -48,7 +49,7 @@ const Footer = () => {
       <div className='column3'>
             <h5>About Us</h5>
              <div>
-                <a role='button'>Why Redfin?</a>
+                <Link role='button' to="/insideaboutus">Why Redfin?</Link>
              </div>
              <div>
                 <a role='button'>Community Impact </a>

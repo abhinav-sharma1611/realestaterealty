@@ -259,7 +259,42 @@
 
 
  }
+ .image77{
 
+    background-image: url('image77.png');
+
+    width: 700px;
+
+    height: 450px;
+
+    padding: 50px;
+
+
+    margin-top: 100px;
+
+    margin-left: 50px;
+
+
+ }
+ .image88{
+
+    background-image: url('image88.png');
+
+    width: 700px;
+
+    height: 450px;
+
+    padding: 50px;
+
+
+    margin-top: 100px;
+
+    margin-left: 50px;
+
+
+ }
+
+ 
 
 
 
@@ -278,6 +313,12 @@
 
     margin-left: 100px;
 
+
+  }
+
+  .content_inside_about_us{
+    margin-top: 100px;
+    margin-left: 100px;
   }
 
 
@@ -307,6 +348,31 @@
 
  }
 
+ .image33{
+
+    background-image: url('qrr.PNG');
+
+    background-repeat: no-repeat;
+
+    width: 80%;
+
+    height: auto;
+
+   
+
+    /* /* padding: 350px;* */
+
+    margin-left: 100px;
+
+    margin: 100px;
+
+
+    /* margin-top: 100px;
+
+    margin-left: 50px; */
+
+
+ }
 
 
 
@@ -367,6 +433,99 @@
 
 
  }
+
+ 
+ .image6{
+
+    background-image: url('image66.png');
+
+    background-repeat: no-repeat;
+
+    width: 80%;
+
+    height: auto;
+
+    margin-right: 70px;
+
+    margin-top: 20px;
+
+   
+
+    /* /* padding: 350px;* */
+
+    margin-left: 100px;
+
+    /* margin: 10px; */
+
+
+    /* margin-top: 100px;
+
+    margin-left: 50px; */
+
+
+ }
+
+ 
+ .imagelady{
+
+    background-image: url('lady1.png');
+
+    background-repeat: no-repeat;
+
+    width: 80%;
+
+    height: auto;
+
+    margin-right: 70px;
+
+    margin-top: 20px;
+
+   
+
+    /* /* padding: 350px;* */
+
+    margin-left: 100px;
+
+    /* margin: 10px; */
+
+
+    /* margin-top: 100px;
+
+    margin-left: 50px; */
+
+
+ }
+ 
+ .image99{
+
+    background-image: url('image99.png');
+
+    background-repeat: no-repeat;
+
+    width: 80%;
+
+    height: auto;
+
+    margin-right: 70px;
+
+    margin-top: 20px;
+
+   
+
+    /* /* padding: 350px;* */
+
+    margin-left: 100px;
+
+    /* margin: 10px; */
+
+
+    /* margin-top: 100px;
+
+    margin-left: 50px; */
+
+
+ }
+
 
 
  .agent{
@@ -523,6 +682,9 @@
   display: flex;
   }
   .distance-nav1{
+    display: flex;
+    }
+  .distance-nav1{
     width: 545px;
     /* margin-left: 100px;
     display: flex; */
@@ -569,5 +731,18 @@
 
 .inside-about{
     width: 600px;
+    margin-left: 100px;
+}
+
+.s1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.s2{
+
+    align-items: center;
+    margin-top: 200px;
     margin-left: 100px;
 }

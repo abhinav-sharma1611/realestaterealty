@@ -9,6 +9,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import BlogPage from './pages/BlogPage';
+import InsideAboutUs from './pages/InsideAboutUs';
+import { InsideOueAgent } from './pages/InsideOueAgent';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "newpage",
     element: <BlogPage/>
+  },
+  {
+    path: "insideaboutus",
+    element: <InsideOueAgent/>
   }
   
 ]);
