@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,6 +12,8 @@ import {
 import BlogPage from './pages/BlogPage';
 import InsideAboutUs from './pages/InsideAboutUs';
 import { InsideOueAgent } from './pages/InsideOueAgent';
+import Navbar from './component/navbar';
+
 
 const router = createBrowserRouter([
   {
@@ -27,7 +30,15 @@ const router = createBrowserRouter([
   },
   {
     path: "insideaboutus",
-    element: <InsideOueAgent/>
+    element: <InsideAboutUs/>
+  },
+  {
+    path: "OurAgent",
+    element: <InsideOueAgent />
+  },
+  {
+    path: "Dashboard",
+    element: <Navbar />
   }
   
 ]);

@@ -6,9 +6,9 @@ export const Navbar2 = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary im col">
         <div className="container-fluid  full-width ">
-          <a className="navbar-brand text" href="/blog">
+          <Link className="navbar-brand text" to="/DashBoard" type="button">
             REDFIN
-          </a>
+          </Link>
           {/* <Link  to='/blog' className="navbar-brand text" >REDFIN</Link> */}
 
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

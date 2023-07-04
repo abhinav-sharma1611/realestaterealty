@@ -1,13 +1,19 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export const Navbar1 = () => {
+  // let navigate = useNavigate();
+  // const routeChange3 = () => {
+  //       let path = `/DashBoard`; 
+  //   navigate(path);
+  // }
   return (
     <>
               <nav className="navbar navbar-expand-lg bg-body-tertiary im col">
   <div className="container-fluid  full-width " >
     {/* <a className="navbar-brand text" href="/blog">REDFIN</a> */}
-    <Link  to='/blog' className="navbar-brand text" >REDFIN</Link>
+    <Link  to="/" className="navbar-brand text" >REDFIN</Link>
    
     {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span> */}

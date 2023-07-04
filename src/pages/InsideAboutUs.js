@@ -5,8 +5,12 @@ import NavbarInsideAbout from '../component/NavbarInsideAbout';
 import InsideAboutContents from '../component/Inside-About/InsideAboutContents';
 import Agent from '../component/Agent';
 import Footer from '../component/footer';
+import { useEffect } from 'react';
 
 export const InsideAboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
    <>
     <Navbar2/>
