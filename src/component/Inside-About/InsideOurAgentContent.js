@@ -3,6 +3,7 @@ import React from 'react'
 export const InsideOurAgentContent = () => {
   return (
 <>
+
 <div   className='content1'>
         
         {/* <div  className='  image2' >
