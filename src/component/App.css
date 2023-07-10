@@ -17,7 +17,9 @@
     display: block;
 
 }
-
+.data-wise{
+    margin-left: 100px;
+}
 
 .text{
 
@@ -745,4 +747,57 @@
     align-items: center;
     margin-top: 200px;
     margin-left: 100px;
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+}
+.row-2{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.parking-1{
+    flex:0.4;
+}
+
+.parking-2{
+    flex:0.5;
+}
+.row-1{
+    margin-top: 1.25rem;
+}
+.tax{
+    margin-left: 0;
+}
+.Tax-11{
+    display: flex;
+}
+
+.Tax-history{
+    margin-left: 0%;
+}
+
+.date-1,.date1-1{
+    flex:0.3;
+}
+
+.description,.description-1-1{
+    flex: 0.5;
+}
+
+.price,.price-1-1{
+    flex:0.3
+}
+
+.date-wise h3{
+    color: rgb(56, 46, 114);
+}
+
+
+.trip{
+    width: 100%;
+    margin-left: -28px;
 }
