@@ -13,6 +13,8 @@ import BlogPage from './pages/BlogPage';
 import InsideAboutUs from './pages/InsideAboutUs';
 import { InsideOueAgent } from './pages/InsideOueAgent';
 import Navbar from './component/navbar';
+// import Contact from './contact';
+import ContactSchool from './contact';
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "Dashboard",
     element: <Navbar />
+  },
+  {
+    path: "contactus",
+    element: <ContactSchool />
   }
   
 ]);

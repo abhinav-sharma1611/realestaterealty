@@ -13,6 +13,10 @@ export const Navbar3 = () => {
     let path = `/insideaboutus`; 
     navigate(path);
   }
+  const routeChange4 = () => {
+    let path = `/insideaboutus`; 
+    navigate(path);
+  }
   return (
     <>
   <nav className='distance-nav1'>
@@ -20,7 +24,7 @@ export const Navbar3 = () => {
     <Link onClick={routeChange2} class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Why Redfin </Link>
    <Link onClick={routeChange} class="nav-link  " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" >Our Agents</Link>
     <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Buy with redfin</button>
-    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Sell with Redfin</button>
+    <Link onClick={routeChange4} class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Sell with Redfin</Link>
   </div>
   {/* <div>
   <button type="button" class="btn btn-danger btn-width">Danger</button>

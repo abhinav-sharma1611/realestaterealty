@@ -1,0 +1,28 @@
+.tent{
+    cursor: pointer;
+    margin-top: 30px;
+    /* width: 8000px; */
+    font: inherit;
+    font-weight: 800;
+}
+.tent2{
+    cursor: pointer;
+}
+
+.tent:hover{
+    color: rgb(44, 156, 110);
+}
+.tent2:hover{
+    color: rgb(44, 156, 110);
+}
+
+.cnt{
+   width: 900px;
+}
+.und{
+    border-bottom: 1px dotted black;
+}
+
+.cnt5{
+    width: 900px;
+}

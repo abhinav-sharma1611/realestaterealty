@@ -79,10 +79,11 @@ const Footer = () => {
       <div className='column3'>
             <h5>Find Us</h5>
              <div>
-                <a role='button'>Redfin App</a>
+             <Link role='button' to="/contactus"> Contact Us</Link>
+                
              </div>
              <div>
-                <a role='button'>Contact Us  </a>
+             <a role='button'>Redfin App </a>
              </div>
              <div>
                 <a role='button'>Help Center</a>
