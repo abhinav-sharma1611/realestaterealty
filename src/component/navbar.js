@@ -15,10 +15,7 @@ export const Navbar = () => {
   return (
    <>
      <div className='container image'>
-      <Navbar1/>
-        
-       <Description/> 
-
+      <Navbar1/>  
      <NavUseState/> 
 
       <SearchBar/> 

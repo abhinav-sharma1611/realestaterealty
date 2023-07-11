@@ -5,6 +5,7 @@ const InsideAbout = () => {
     const [showmore, setShowMore] = useState(false);
     const text= Data;
   return (
+    <div className="container">
     <div className='inside-about'>
         <h6> About this home</h6>
 
@@ -19,7 +20,7 @@ const InsideAbout = () => {
        <p>Listed by Guadalupe Bucio• Redco, Inc.
         </p>
     </div>
-
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const CardData = ({menuData}) => {
   return (
-   <>
+   <div className='container'>
    <div  className='property'>
    <h6> Recomended</h6>
    <h5> Properties near you</h5>
@@ -47,7 +47,7 @@ export const CardData = ({menuData}) => {
    }
    </div>
         
-   </>
+   </div>
   )
 }
 

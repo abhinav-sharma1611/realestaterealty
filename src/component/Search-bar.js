@@ -31,6 +31,8 @@ const SearchBar = ({ onSearch }) => {
 
 
   return (
+    <div className="container">
+
 
     <form onSubmit={handleSearch} className="d-flex">
 
@@ -51,6 +53,7 @@ const SearchBar = ({ onSearch }) => {
       <button type="submit" className="btn btn-primary">Search</button>
 
     </form>
+    </div>
 
   );
 

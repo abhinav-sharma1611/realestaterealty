@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-<>
+<div className='container'>
     <div   className='content1'>
         
         {/* <div  className='  image2' >
@@ -70,7 +70,7 @@ export const Hero = () => {
         
     </div>
    
-</>
+</div>
   )
 }
 

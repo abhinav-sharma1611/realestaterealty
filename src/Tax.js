@@ -36,6 +36,7 @@ const Tax = () => {
     }}
   >
     <div className="container">
+    <h3>Sale and tax history for 440 E 117th St Unit 1B</h3>
     <div className='container trip'>
     <div className='Tax-History'>
     <TimelineItem>

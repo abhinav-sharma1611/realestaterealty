@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar3 = () => {
   return (
-    <>
+    <div className='container'>
   <nav className='distance-nav'>
   <div class="nav nav-tabs distance-na distance-nav1" id="nav-tab" role="tablist">
     <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Search</button>
@@ -20,7 +20,7 @@ export const Navbar3 = () => {
   </div>
 </nav>
 </nav>
-    </>
+    </div>
   )
 }
 

@@ -1,4 +1,4 @@
-.container-fluid {
+.conainer-fluid {
 
     padding-left:0px;
 
@@ -593,11 +593,11 @@
 
 .column1{
 
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 .column2{
 
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 .column3{
 
@@ -669,7 +669,7 @@
 
   .property{
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 50px; 
   }
 
 
@@ -680,7 +680,7 @@
 
   .distance-nav{
 
-  margin-left: 100px;
+  /* margin-left: 100px; */
   display: flex;
   }
   .distance-nav1{
@@ -699,13 +699,10 @@
 
 
         .insideimage-width{
-            margin-left: 100px;
             display: flex;
 
         }
-.insidedata-width{
-    margin-left: 100px;
-}
+.insidedata-width{}
 
 .insidedata-text-1{
     font-weight: bold;
@@ -800,4 +797,6 @@
 .trip{
     width: 100%;
     margin-left: -28px;
+    margin-top: 2rem;
 }
+

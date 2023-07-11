@@ -5,6 +5,7 @@ import './InsideHome.css'
 
 const InsideAsk = () => {
   return (
+    <div className='container'>
     <div className='block-ask table1'>
         <div className='block-ask-heading'>
         <h3>Ask Redfin agent Daniel a question</h3>
@@ -39,6 +40,7 @@ const InsideAsk = () => {
             </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

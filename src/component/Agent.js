@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Agent = () => {
   return (
-    <>
+    <div className='container'>
     <div className='agent'>
         <div className='container mg'>
             <h2 >Talk to a redfin agent</h2>
@@ -33,7 +33,7 @@ export const Agent = () => {
     </div>
 
     
-    </>
+    </div>
   )
 }
 export default Agent

@@ -8,9 +8,9 @@ export const Feed = () => {
     const[menuData,setMenuData] = useState(Cards)
   return (
     
-    <>
+    <div className='container'>
         <CardData  menuData={menuData}/>
-    </>
+    </div>
   )
 }
 

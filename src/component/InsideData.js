@@ -7,6 +7,7 @@ import InsideAsk from './InsideAsk';
 
 const InsideData = () => {
   return (
+    <div className="container">
     <div className='main-page-data'>
         <div>
         <div>
@@ -71,6 +72,7 @@ const InsideData = () => {
         <hr/>
        </div>
      
+    </div>
     </div>
   )
 }

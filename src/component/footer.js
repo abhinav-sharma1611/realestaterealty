@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+   <div className='container'>
     <div  className='content2'>
         <div className='column1' >
             <h5>Join Us</h5>
@@ -132,7 +133,7 @@ const Footer = () => {
              </div>
       </div>
     </div>
-   
+    </div>
   )
 }
 

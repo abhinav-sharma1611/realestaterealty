@@ -5,7 +5,7 @@
 .table1{
 
     margin-top: 50px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 
 }
 
@@ -15,13 +15,13 @@
 }
 
 .table-value{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items:flex-start;
 }
 
 .table-home-col-2{
 
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .table-label{
@@ -33,14 +33,14 @@
 }
 
 .data-col-2{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     overflow: hidden;  
 }
 
 .data-button{
 
     margin-top: 30px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .btn-width{
@@ -56,5 +56,5 @@
     display: flex;
 }
 .link2, .block-info{
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }

@@ -4,7 +4,7 @@ import store from './store.PNG';
 export const InsideAboutContents = () => {
   return (
     
-    <>
+    <div className='container'>
          <div   className='content1'>
         
         {/* <div  className='  image2' >
@@ -97,7 +97,7 @@ export const InsideAboutContents = () => {
         
     </div>
    
-    </>
+    </div>
   )
 
 }
