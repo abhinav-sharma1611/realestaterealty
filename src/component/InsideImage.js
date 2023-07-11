@@ -5,6 +5,7 @@ import people from './people.PNG'
 
 const InsideImage = () => {
   return (
+    <div className='container'>
     <div className='insideimage-width'>
         <div>
         <img src={homee}  width={400}></img>
@@ -16,6 +17,7 @@ const InsideImage = () => {
         <img src={people} width={400}></img> 
         </div>
      
+    </div>
     </div>
   )
 }

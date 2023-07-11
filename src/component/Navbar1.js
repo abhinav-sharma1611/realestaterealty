@@ -1,19 +1,17 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import NavUseState from './Nav-UseState';
+import SearchBar from './Search-bar';
+
+
 
 export const Navbar1 = () => {
-  // let navigate = useNavigate();
-  // const routeChange3 = () => {
-  //       let path = `/DashBoard`; 
-  //   navigate(path);
-  // }
   return (
-    <>
-              <nav className="navbar navbar-expand-lg bg-body-tertiary im col">
+    <div className='container image'>
+<nav className="navbar navbar-expand-lg bg-body-tertiary im col">
   <div className="container-fluid  full-width " >
     {/* <a className="navbar-brand text" href="/blog">REDFIN</a> */}
-    <Link  to="/" className="navbar-brand text" >REDFIN</Link>
+    <Link  to='/blog' className="navbar-brand text" >REDFIN</Link>
    
     {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span> */}
@@ -33,7 +31,7 @@ export const Navbar1 = () => {
             {/* <li><hr className="dropdown-divider" /></li> */}
             <li><a className="dropdown-item" href="#"> Land for sale</a></li>
             <li><a className="dropdown-item" href="#">Open Houses</a></li>
-            
+           
           </ul>
         </li>
         {/* <li className="nav-item">
@@ -51,7 +49,7 @@ export const Navbar1 = () => {
             {/* <li><hr className="dropdown-divider" /></li> */}
             <li><a className="dropdown-item" href="#">how much rent can i afford</a></li>
             <li><a className="dropdown-item" href="#">should i rent or guide</a></li>
-            <li><a className="dropdown-item" href="#">Renter Guide</a></li>
+            <li><a className="dropdown-item" href="#" role='button'><span>Renter Guide</span></a></li>
           </ul>
         </li>
            <li className="nav-item">
@@ -103,7 +101,10 @@ export const Navbar1 = () => {
     </div>
   </div>
 </nav> 
-    </>
+
+<NavUseState/>
+<SearchBar/>
+    </div>
   )
 }
 

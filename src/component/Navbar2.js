@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar2 = () => {
   return (
-    <>
+    <div className="container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary im col">
         <div className="container-fluid  full-width ">
           <Link className="navbar-brand text" to="/DashBoard" type="button">
@@ -217,7 +217,7 @@ export const Navbar2 = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

@@ -2,7 +2,8 @@ import React from 'react'
 
 export const InsideOurAgentContent = () => {
   return (
-<>
+<div className='container'>
+
 <div   className='content1'>
         
         {/* <div  className='  image2' >
@@ -10,7 +11,7 @@ export const InsideOurAgentContent = () => {
         </div> */}
         
         <div className='content'> 
-        <h1>Work with the best agents in your neighborhood</h1>
+        <h1>with the best agents in your neighborhood</h1>
         <p>Redfin agents are in the top 1% of real estate agents working at any nationwide brokerage,
          so we have the experience to help you win in today's market.</p>
          <div  className='s1'>
@@ -77,7 +78,7 @@ export const InsideOurAgentContent = () => {
 
         
     </div>
-</>
+</div>
   )
 }
 

@@ -24,7 +24,7 @@ let sell = ["1% listing fee",
 const[info, setInfo] = useState(buy)
 // const[info2,setInfo2] = useState('Tour with Redfin Agent.')
   return (
-    <>
+    <div className='container'>
     <div   className='inner-div'>
     <h3> {info}</h3>
     {/* <h3>{info2}</h3>   */}
@@ -52,7 +52,7 @@ const[info, setInfo] = useState(buy)
   </div>
 </nav>
 </div>
-    </>
+    </div>
   )
 }
 
