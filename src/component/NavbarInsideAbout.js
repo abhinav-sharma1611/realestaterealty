@@ -14,7 +14,7 @@ export const Navbar3 = () => {
     navigate(path);
   }
   return (
-    <>
+    <div className='container'>
   <nav className='distance-nav1'>
   <div class="nav nav-tabs distance-na distance-nav1" id="nav-tab" role="tablist">
     <Link onClick={routeChange2} class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Why Redfin </Link>
@@ -34,7 +34,7 @@ export const Navbar3 = () => {
   </div>
 </nav> */}
 </nav>
-    </>
+    </div>
   )
 }
 

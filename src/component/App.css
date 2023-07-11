@@ -6,7 +6,9 @@
 
 }
 
-
+.c5{
+    margin-left: 2em;
+}
 
 
 .full-width { width: 100%; }
@@ -73,25 +75,23 @@
    
 
 } */
-
 .image{
 
-    background-image:url('new.jpg');  
+    background-image:url('putti.jpg');  
 
     background-repeat: no-repeat;
 
     background-size: cover;
 
-    background-position-y: -200px;
+    /* background-position-y: -200px; */
 
     max-width: 100%;
 
-    height: 50vh;
+    height: 25rem;
 
    align-items: flex-start;
-
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .navbar{
 
     background:transparent !important;
@@ -474,7 +474,7 @@
 
     background-repeat: no-repeat;
 
-    width: 80%;
+    width: 84rem;
 
     height: auto;
 
@@ -535,7 +535,7 @@
 
     margin-top: 100px;
 
-    background-color: #f1f7d8;
+    background-color: #f4f4f2;
 
     width: 100%;
 
@@ -646,12 +646,24 @@
     box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
     z-index: 1;
     display: flex;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
    
   }
+  .c1{
+    margin-left: 3em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+  }
 
- 
+ .www{
+    text-decoration: none;
+ }
 .c3 {
     display: inline-block;
+    text-decoration: none;
    
   }
 
@@ -668,7 +680,7 @@
   }
 
   .property{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px; 
   }
 
@@ -729,8 +741,7 @@
 
 
 .inside-about{
-    width: 600px;
-    margin-left: 100px;
+    width: 600px; 
 }
 
 .s1{
@@ -800,3 +811,12 @@
     margin-top: 2rem;
 }
 
+Tax{
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.park{
+    background-color: rgb(236, 236, 243);
+}

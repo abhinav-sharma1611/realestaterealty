@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BuyWithRedfinContents = () => {
   return (
-    <>
+    <div className='container'>
         
 <div   className='content1'>
         
@@ -22,7 +22,7 @@ export const BuyWithRedfinContents = () => {
 
         
     </div>
-    </>
+    </div>
   )
 }
 

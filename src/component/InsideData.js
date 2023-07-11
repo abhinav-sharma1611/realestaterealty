@@ -33,8 +33,9 @@ const InsideData = () => {
         </div>
         </div>
         <hr/>
-
+         <div className='container'>
         <InsideAbout/>
+        </div>
         <InsideHome/>
         <InsideInsights/>
         <InsideAsk/>

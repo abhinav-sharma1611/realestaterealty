@@ -5,7 +5,7 @@ export const Agent = () => {
     <div className='container'>
     <div className='agent'>
         <div className='container mg'>
-            <h2 >Talk to a redfin agent</h2>
+            <h2 > Talk to a redfin agent</h2>
             <p>Whether you’re searching for houses, apartments,
              or condos, it's easy to find a place you'll love.</p>
              </div>

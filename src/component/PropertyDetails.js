@@ -7,7 +7,7 @@ const PropertyDetails = () => {
         <h3>Property details for 1521 N Springfield Ave</h3>
 
         <div className='row-1'>
-          <h3>Parking</h3>
+          <h3 className='park'>Parking</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -32,7 +32,7 @@ const PropertyDetails = () => {
         </div>
        
         <div className='row-1'>
-        <h3>Interior</h3>
+        <h3 className='park'>Interior</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -65,7 +65,7 @@ const PropertyDetails = () => {
        
         <div className='row-1'>
 
-        <h3>Exterior</h3>
+        <h3 className='park'>Exterior</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -102,7 +102,7 @@ const PropertyDetails = () => {
         </div>
        
         <div className='row-1'>
-          <h3>Financial</h3>
+          <h3 className='park'>Financial</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -129,7 +129,7 @@ const PropertyDetails = () => {
        
         <div className='row-1'>
 
-        <h3>Utilities</h3>
+        <h3 className='park'>Utilities</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -153,7 +153,7 @@ const PropertyDetails = () => {
        
         <div className='row-1'>
          
-        <h3>Location</h3>
+        <h3 className='park'>Location</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
@@ -206,7 +206,7 @@ const PropertyDetails = () => {
         </div>
         </div>
         <div className='row-1'>
-        <h3>Other</h3>
+        <h3 className='park'>Other</h3>
           <div className='row-2'>
             <div className='parking-1'>
               <ul>
