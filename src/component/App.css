@@ -826,3 +826,126 @@ Tax{
     box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
   }
   
+
+  .tent{
+    cursor: pointer;
+    margin-top: 30px;
+    /* width: 8000px; */
+    font: inherit;
+    font-weight: 800;
+}
+.tent2{
+    cursor: pointer;
+}
+
+.tent:hover{
+    color: rgb(44, 156, 110);
+}
+.tent2:hover{
+    color: rgb(44, 156, 110);
+}
+
+.cnt{
+   width: 900px;
+}
+.und{
+    border-bottom: 1px dotted black;
+}
+
+/* .lpuXrw{
+    width: 1000px;
+}
+
+.cnt5{
+    width: 1000px;
+} */
+
+.tex{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+/* .fix{
+    box-sizing: border-box;
+} */
+
+.headd{
+    align-items: flex-start;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    display: flex;
+    left: 0;
+    /* padding: 1.5rem 1.5rem 1rem 1.5rem; */
+    padding-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10051;
+    margin-top: 0;
+}
+
+
+
+.rating a{
+    text-decoration: dotted;
+  }
+  
+  .rating2{
+    display: flex;
+    font-size: smaller;
+   
+  }
+  
+  .bi-star-fill{
+    color: rgb(146, 146, 33);
+    font-size: medium;
+  }
+  
+  .rate{
+    display: flex;
+  }
+  .rating, .rating2{
+    flex:0.2;
+  }
+  .rate p{
+    margin: 1px;
+  }
+
+  .side1{
+    width: 40%;
+  }
+  .side2{
+    margin-left: 20px;
+    width: 60%;
+}
+
+.icon-1{
+    display: flex;
+    /* margin-right: 10px;   */
+  }
+  
+  .u{
+    color: black;
+   
+  }
+  
+  .dash a{
+    text-decoration: dotted;
+    font-weight: bold;
+  }
+
+  .tt{
+    border-bottom: 1px dotted black;
+  }
+
+/* below */
+
+.sc2{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.container3{
+    margin-top: 10px;
+}
