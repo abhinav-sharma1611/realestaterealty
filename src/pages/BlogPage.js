@@ -6,6 +6,8 @@ import InsideImage from '../component/InsideImage';
 import InsideData from '../component/InsideData';
 import PropertyDetails from '../component/PropertyDetails';
 import Tax from '../Tax';
+import School from '../component/School';
+import Footer from '../component/footer';
 
 
 export const BlogPage = () => {
@@ -15,9 +17,11 @@ export const BlogPage = () => {
     <hr/>
     <Navbar3/>
     <InsideImage/>
-    <InsideData/>
+    <InsideData />
     <PropertyDetails/>
     <Tax/>
+    <School />
+    <Footer />
     </>
   )
 }

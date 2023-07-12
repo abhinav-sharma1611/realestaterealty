@@ -2,7 +2,7 @@ import React from 'react'
 
 const PropertyDetails = () => {
   return (
-    <div className='container'>
+    <div className='container' id="prop-det">
       <div className='property-details-full'>
         <h3>Property details for 1521 N Springfield Ave</h3>
 

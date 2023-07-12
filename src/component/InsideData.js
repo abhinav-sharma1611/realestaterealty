@@ -7,7 +7,7 @@ import InsideAsk from './InsideAsk';
 
 const InsideData = () => {
   return (
-    <div className="container">
+    <div className="container" id="prop-det">
     <div className='main-page-data'>
         <div>
         <div>
